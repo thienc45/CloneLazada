@@ -1,0 +1,159 @@
+:root {
+  --white-color: white;
+  --primary: #3178f6;
+  --bg-primary: #fff;
+  --text-color: #757575;
+  --text-hover-color: #f57224;
+  --text-hover-opacity: 1;
+  --bg-color: #eff0f5;
+
+  --banner-height: 87px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.grid {
+  width: 1180px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+.grid__row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-flow: row;
+  row-gap: 24px;
+}
+
+.grid__row-8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); 
+  grid-auto-flow: row; 
+  row-gap: 24px;  
+
+}
+
+.grid__column-1 { grid-column: span 1;  }
+
+.grid__column-2 {
+  grid-column: span 2;
+}
+
+.two-line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* Số dòng tối đa */
+  line-clamp: 2; /* Số dòng tối đa */
+  max-height: 3em; /* Chiều cao tối đa cho 2 dòng, tùy thuộc vào font-size */
+  line-height: 1.5em; /* Chiều cao của một dòng */
+  white-space: normal;
+}
+
+
+.two-line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Giới hạn hiển thị 2 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal; /* Cho phép ngắt dòng */
+  word-wrap: break-word; /* Ngắt dòng nếu từ quá dài */
+}
+
+.hp-mod-card-hover {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, outline 0.3s ease;
+  background-color: #ffffff; /* Màu nền trắng */
+  border-radius: 8px; /* Nếu cần bo góc */
+  box-sizing: border-box; /* Đảm bảo viền không làm thay đổi kích thước */
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1); /* Bóng mờ mặc định */
+}
+
+.hp-mod-card-hover:hover {
+  /* transform: translateY(-5px);  */
+  /* Di chuyển lên trên khi hover */
+  outline: 2px solid #ead4c7; /* Thêm outline khi hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Bóng mờ khi hover */
+}
+
+
+.picture-wrapper>img {
+  display: inline-block;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+.new-desktop-footer a {
+  color: #888;
+  text-decoration: none;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* .lzd-footer-width-50 {
+  display: flex;
+  float: left;
+  overflow: hidden;
+  width: 50%;
+} */
+
+.footer-first .lzd-footer-app-downloads {
+  margin-top: 25px;
+}
+
+.footer-first .lzd-footer-app-downloads .lzd-app-download-text {
+  padding: 0 15px;
+}
+
+.footer-first .lzd-footer-app-downloads .lzd-app-download-text .title {
+  color: #f36f36;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer-first .lzd-footer-app-downloads .lzd-app-download-text .text {
+  color: #0f136d;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 2px;
+}
+
+.lzd-footer-app-downloads{
+  display: flex;
+  justify-content:space-between ;
+}
+
+.footer-fourth .lzd-footer-country {
+  height: 34px;
+  width: 34px;
+}
+
