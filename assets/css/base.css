@@ -24,7 +24,6 @@ html {
   margin: 0 auto;
 }
 
-
 .grid__row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -125,35 +124,3 @@ html {
   overflow: hidden;
   width: 50%;
 } */
-
-.footer-first .lzd-footer-app-downloads {
-  margin-top: 25px;
-}
-
-.footer-first .lzd-footer-app-downloads .lzd-app-download-text {
-  padding: 0 15px;
-}
-
-.footer-first .lzd-footer-app-downloads .lzd-app-download-text .title {
-  color: #f36f36;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.footer-first .lzd-footer-app-downloads .lzd-app-download-text .text {
-  color: #0f136d;
-  font-size: 14px;
-  font-weight: 300;
-  padding-top: 2px;
-}
-
-.lzd-footer-app-downloads{
-  display: flex;
-  justify-content:space-between ;
-}
-
-.footer-fourth .lzd-footer-country {
-  height: 34px;
-  width: 34px;
-}
-

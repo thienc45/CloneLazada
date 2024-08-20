@@ -1,7 +1,7 @@
 .gcp-lazada-page {
     position: relative;
 }
-
+/* CampaignBanner start */
 #CampaignBanner {
     width: 100vw;
     height: var(--banner-height);
@@ -34,8 +34,9 @@
     top: 15px;
 }
 
+/* CampaignBanner end */
 
-/* top-header */
+/* top-header start */
 
 .header-content-wrap {
     width: 100%;
@@ -311,8 +312,9 @@
     object-fit: contain;
 }
 
+/* top-header end */
 
-/* content */
+/* content start */
 
 #content {
     /* margin-top: 107px; */
@@ -654,7 +656,7 @@
     font-weight: 600;
 }
 
-/* content */
+/* content start */
 
 .card-fs-content-body-unit {
     height: 290px;
@@ -678,13 +680,6 @@
     width: 188px;
 }
 
-.picture-wrapper>img {
-    display: inline-block;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-    width: auto;
-}
 
 .fs-card-text {
     margin: 4px 8px 0;
@@ -819,7 +814,6 @@
 }
 
 /* card-categories-comp-container */
-
 .card-categories-comp-container {
     margin-top: 69.2px;
 }
@@ -903,8 +897,6 @@
 .jfy-comp-container .hp-mod-card-content .card-jfy-wrapper .card-jfy-footer .card-jfy-ratings {
     position: relative;
 }
-
-
 
 .card-jfy-title {
     font-size: 1rem;
@@ -1156,3 +1148,37 @@ h4 {
 .card-official-stores-box {
     text-decoration: none;
 }
+
+
+.footer-first .lzd-footer-app-downloads {
+    margin-top: 25px;
+  }
+  
+  .footer-first .lzd-footer-app-downloads .lzd-app-download-text {
+    padding: 0 15px;
+  }
+  
+  .footer-first .lzd-footer-app-downloads .lzd-app-download-text .title {
+    color: #f36f36;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .footer-first .lzd-footer-app-downloads .lzd-app-download-text .text {
+    color: #0f136d;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 2px;
+  }
+  
+  .lzd-footer-app-downloads{
+    display: flex;
+    justify-content:space-between ;
+  }
+  
+  .footer-fourth .lzd-footer-country {
+    height: 34px;
+    width: 34px;
+  }
+  
+  

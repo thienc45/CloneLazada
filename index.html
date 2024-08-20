@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
-    <!-- <link rel="stylesheet" href="assets/css/banner1.css"> -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +20,7 @@
 </head>
 
 <body class="gcp-lazada-page">
-
+    <!-- CampaignBanner start -->
     <div id="CampaignBanner">
         <div class="banner-container grid">
             <a class="campaign-link " href="/" data-spm-protocol="i" venture="VN" style="background: rgb(203, 11, 16);"
@@ -40,11 +39,14 @@
             </a>
         </div>
     </div>
+    <!-- CampaignBanner end -->
 
+    <!-- top-header start -->
     <div id="top-header" class="header-content-wrap ">
         <div class="header-content">
 
-            <div class="links-bar">
+            <!-- links-bar start -->
+            <div class="links-bar" style="background-color: #bfb2b252;">
                 <div class="links-list grid ">
                     <div class="link-item" id="feedback-link">
                         <a class="highlight" target="_blank"
@@ -138,8 +140,13 @@
                     </div>
                 </div>
             </div>
+            <!-- links-bar end -->
 
-            <div class="lzd-logo-bar ">
+                  <!-- lzd-logo-bar start -->
+            <div class="lzd-logo-bar " style="    display: flex;
+            margin: auto;
+            align-items: center;
+            background: #af818152;">
 
                 <div class="logo-bar-content grid">
 
@@ -172,9 +179,12 @@
                     </div>
                 </div>
             </div>
+             <!-- lzd-logo-bar end -->
         </div>
     </div>
+    <!-- top-header end -->
 
+     <!-- content start -->
     <section id="content">
         <div class="pc-custom-link pc-banner-slider-container">
 
@@ -476,7 +486,6 @@
                     </div>
 
                 </div>
-
             </div>
         </div>
 
@@ -1592,7 +1601,9 @@
             </div>
         </div>
     </section>
+     <!-- content end -->
 
+     <!-- new-desktop-footer start -->
     <section class="new-desktop-footer  ">
         <div class="footer-first grid">
             <div class="lzd-footer-inner" data-spm="footer_top">
@@ -3089,9 +3100,8 @@
         </div>
 
     </section>
-
+     <!-- new-desktop-footer end -->
     <script>
-        // JavaScript để xử lý sự kiện cuộn và thay đổi vị trí của header
         document.addEventListener('scroll', function () {
             const header = document.getElementById('top-header');
 
